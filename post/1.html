@@ -59,15 +59,23 @@
     }
     
     article { 
+      margin: 100px auto;
       width: 900px; 
       line-height: 30px;
+      text-align: center;
+    }
+    article header{
+      margin: 20px;
+    }
+    article img {
+      width: 500px;
     }
   </style>
 </head>
 <body>
   <header>
     <h4 class="auther">9¾</h4>
-    <h4 class="bio">Origin</h4>
+    <h4 class="bio"><a href="/" style="text-decoration:none; color:#333;">Origin</a></h4>
   </header>
   
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -104,7 +112,7 @@
 <p><strong>Jtag 程序下载接口</strong></p>
 <p>在板子中 增加一个 Jtag 接口 可以免去使用ISP下载的串口 和 RS232电平转换芯片的支出 &nbsp; 而且接口电路简单 &nbsp; 其实jtag口就是 把下载的电路 放在了下载器上 &nbsp;而板子上只需要和单片机对应的引脚接上插针 预留接口 &nbsp; 这样就不需要每块板子上都加入下载的电路 &nbsp;经济而且方便 &nbsp;&nbsp;</p>
 <p>Jtag下载接口和 AT89S52单片机 引脚的对应关系：</p>
-<p><img src="http://neil-pan.com//uploads/2012/04/1146699066.png" alt="AT89S52 Jtag接法">&nbsp;&nbsp; <img src="/uploads/2012/04/2424829628.png" alt="AT89S52 Jtag接法"></p>
+<p><img src="http://neil-pan.com//uploads/2012/04/1146699066.png" alt="AT89S52 Jtag接法">&nbsp;&nbsp; <img src="http://neil-pan.com//uploads/2012/04/2424829628.png" alt="AT89S52 Jtag接法"></p>
 <p>PS: 各不同型号单片机接法可能不同</p>
 <a id="more"></a>
 <p><strong>LCD 1602 接口</strong></p>
